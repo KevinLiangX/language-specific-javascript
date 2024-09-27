@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 算术运算符
+        var a = 10;
+        var b = 20;
+        document.write('a+b='+(a+b)+'<br>');
+        document.write('a-b='+(a-b)+'<br>');
+        document.write('a*b='+(a*b)+'<br>');
+        document.write('a/b='+(a/b)+'<br>');
+        document.write('a%b='+(a%b)+'<br>');
+        document.write('a**b='+(a**b)+'<br>');
+        // 赋值运算符
+        var x = 10;
+        var y = 20;
+        document.write('x='+x+',y='+y+'<br>');
+        x += y;
+        document.write('x='+x+',y='+y+'<br>');
+        x -= y;
+        document.write('x='+x+',y='+y+'<br>');
+        x *= y;
+        // 比较运算符
+        var a = 10;
+        var b = 20;
+        var c =20;
+        document.write('c===b='+(c===b)+'<br>');
+        document.write('a==b='+(a==b)+'<br>');
+        document.write('a!=b='+(a!=b)+'<br>');
+        document.write('a>b='+(a>b)+'<br>');
+        document.write('a<b='+(a<b)+'<br>');
+        document.write('a>=b='+(a>=b)+'<br>');
+        document.write('a<=b='+(a<=b)+'<br>');
+        var name = prompt('请输入用户名');
+        var password = prompt('请输入密码');
+        if(name == 'admin' && password == '123456'){
+            alert('登录成功');
+        }else{
+            alert('登录失败');
+        }
+    </script>
+</body>
+</html>

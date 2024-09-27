@@ -1,0 +1,1 @@
+alert('I am out link js');
